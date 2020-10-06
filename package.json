@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "lerna-publish": "lerna run publish"
+    "lerna-publish": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
