@@ -4,7 +4,7 @@ import third from '@shambhusingh/private'
 
 export default () => (
   <div>
-    <div>First App</div>
+    <div>First</div>
     <div>{second}</div>
     <div>{third}</div>
   </div>
