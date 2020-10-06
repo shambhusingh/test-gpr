@@ -1,6 +1,6 @@
 {
   "name": "@shambhusingh/second",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "index.js",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "release": "npm publish",
     "clean": "rimraf build"
   },
-  "files": ["src/"],
+  "files": ["index.js"],
   "browserslist": [
     "> 0.2% in US",
     "last 1 chrome version",
