@@ -11,8 +11,7 @@
    "scripts": {
     "start": "react-scripts start",
     "build": "babel src -d build",
-    "clean": "rimraf build",
-    "publish": "npm publish"
+    "clean": "rimraf build"
   },
   "browserslist": [
     "> 0.2% in US",
