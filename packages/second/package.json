@@ -2,5 +2,23 @@
   "name": "@shambhusingh/second",
   "private": true,
   "version": "1.0.0",
-  "module": "index.js"
+  "module": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shambhusingh/test-gpr",
+    "directory": "packages/second"
+  },
+  "publishConfig":{"registry":"https://npm.pkg.github.com"},
+  "scripts": {
+    "release": "npm publish",
+    "clean": "rimraf build"
+  },
+  "files": ["src/"],
+  "browserslist": [
+    "> 0.2% in US",
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "not ie < 11"
+  ]
 }
