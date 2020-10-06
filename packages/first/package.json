@@ -1,6 +1,6 @@
 {
   "name": "@shambhusingh/first",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "src/index.js",
    "repository": {
     "type": "git",
