@@ -1,0 +1,20 @@
+{
+  "name": "test-gpr",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:shambhusingh/test-gpr.git",
+  "author": "Shambhu Singh <shambhu.singh@jifflenow.com>",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "publish": "lerna run publish"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
