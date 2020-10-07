@@ -1,6 +1,6 @@
 {
   "name": "@shambhusingh/second",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "module": "src/index.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "publishConfig":{"registry":"https://npm.pkg.github.com"},
   "scripts": {
-    "release": "npm publish",
+    "release": "yarn publish",
     "clean": "rimraf build"
   },
   "files": ["/src"],
