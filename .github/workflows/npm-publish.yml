@@ -20,7 +20,7 @@ jobs:
         uses: EndBug/version-check@v1
         id: check
         with:
-          file-name: packages/first/package.json
+          file-name: ./packages/first/package.json
 
       - name: Version update detected
         if: steps.check.outputs.changed == 'true'
