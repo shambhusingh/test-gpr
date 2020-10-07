@@ -1,7 +1,7 @@
 {
   "name": "@shambhusingh/second",
-  "version": "1.0.1",
-  "module": "index.js",
+  "version": "1.0.2",
+  "module": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/shambhusingh/test-gpr",
@@ -12,7 +12,7 @@
     "release": "npm publish",
     "clean": "rimraf build"
   },
-  "files": ["index.js"],
+  "files": ["/src"],
   "browserslist": [
     "> 0.2% in US",
     "last 1 chrome version",

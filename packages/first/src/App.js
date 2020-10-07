@@ -4,7 +4,7 @@ import second from '@shambhusingh/second'
 
 export default () => (
   <div>
-    <div>First App</div>
+    <div>First 1.0.6</div>
     <div>{second}</div>
     {/* <div>{third}</div> */}
   </div>

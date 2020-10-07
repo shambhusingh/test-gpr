@@ -1,6 +1,6 @@
 {
   "name": "@shambhusingh/first",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "module": "src/index.js",
    "repository": {
     "type": "git",
@@ -11,8 +11,9 @@
    "scripts": {
     "start": "react-scripts start",
     "build": "babel src -d build",
+    "clean": "rimraf build",
     "release": "npm publish",
-    "clean": "rimraf build"
+    "prepublish": "yarn clean && yarn build"
   },
   "files": ["build/"],
   "browserslist": [
