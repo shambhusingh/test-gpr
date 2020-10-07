@@ -4,17 +4,8 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
-    "publish": {
-      "ignoreChanges": [
-        "**/CHANGELOG.md",
-        "**/node_modules/**",
-        "**/package.json",
-        "**/*.md",
-        "**/*.test.*"
-      ],
-      "conventionalCommits": true,
-      "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com"
+    "run": {
+      "npmClient": "yarn"
     }
   }
 }
